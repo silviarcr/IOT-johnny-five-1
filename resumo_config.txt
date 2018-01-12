@@ -1,0 +1,18 @@
+npm -v
+//ir para o diretório de trabalho
+cd work
+work/
+npm init^c
+{cria json}
+
+code . [abre visual code se estiver instalado]
+
+npm install --save "johnny-five"
+
+
+
+
+
+
+
+

@@ -1,6 +1,9 @@
+//inclui biblioteca
 const five = require("johnny-five");
+//cria variavel board com instancia/implementacao da
+//classe Board 
 const arduino = new five.Board({
-    port: "COM4"
+    port: "COM3"
 });
 
 
