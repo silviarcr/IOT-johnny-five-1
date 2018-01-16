@@ -1,16 +1,40 @@
+//na linha de comando
+baixar node.js
 npm -v
-//ir para o diretório de trabalho
+
+//ir para o diretório de trabalho no visual code (code . [abre visual code se estiver instalado])
+//no visual code
 cd work
 work/
+
+//abrir terminal no visual code -> view -> integrated terminal
+//no terminal 
 npm init^c
 {cria json}
 
-code . [abre visual code se estiver instalado]
+
 
 npm install --save "johnny-five"
 
+node index.js
 
 
+//no ide arduino 
+checar porta (setar parametrp da funcao five.board)- ferramentas -> porta -> com3
+abrir arquivo -> exemplos ~> firmata -> standardfirmataplus
+
+
+
+//instalar nodemon
+//no terminal
+npm install -g nodemon
+node index.js <node nome do arquivo>
+
+//projeto botao
+//resistor marrom preto laranja
+
+//projeto led
+//resistor preto marrom
 
 
 
