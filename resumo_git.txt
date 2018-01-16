@@ -1,0 +1,20 @@
+//git clone -> copia o código de um repositório do Git
+git clone https://github.com/charles-s-franca/exemplo-senai-codexp-iot.git
+
+
+//adicionar arquivos na fila de envio para o servidor 
+
+git add .
+
+
+//mostra os arquivos alterados/incluidos/deletados
+git status 
+
+//grava as alterações da lista
+git commit -m ""
+
+//efetiva/sincroniza as alterações com o servidor 
+git push origin master
+
+//pega arquivos modificados/atualizados do repositório, faz o download dos arquivos do servidor
+git pull origin master
