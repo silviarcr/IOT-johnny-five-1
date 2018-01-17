@@ -14,7 +14,7 @@ npm init^c
 
 
 
-npm install --save "johnny-five"
+npm install --save "johnny-five" ou npm i --save "johnny-five"
 
 node index.js
 
@@ -28,14 +28,18 @@ abrir arquivo -> exemplos ~> firmata -> standardfirmataplus
 //instalar nodemon
 //no terminal
 npm install -g nodemon
-node index.js <node nome do arquivo>
+nodemon index.js <node nome do arquivo>
 
 //projeto botao
-//resistor marrom preto laranja
+//resistor laranja preto marrom
 
 //projeto led
-//resistor preto marrom
+//resistor laranja preto marrom
 
+
+		MQTT
+//no terminal
+npm i mqtt
 
 
 
